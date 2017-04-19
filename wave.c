@@ -4,8 +4,9 @@
 #include <math.h>
 #include "screen.h"
 #include "comm.h"
-
-#define PI acos(-1.0)
+#include <stdlib.h>
+#include <unistd.h>
+#define PI 3.14
 
 //void printID(char []);
 
@@ -82,11 +83,11 @@ void displayWAVdata(short int d[])
 {
         int i, j;
         double sum200, rms200, max200=0.0, min200=20000.0;//used to calculate RMS2000
-	double Leqf[8], sum2000=0.0;//Used to calculate RMS2000 (fast leq values)
+	double Leqf[8], sum2000=0.0; //Used to calculate RMS2000 (fast leq values)
 	
         for(i=0;i<80;i++)
         {
-                sum200=0.0; //intitialize to accumulate
+                sum200=0.0;       //intitialize to accumulate
                 for(j=0;j<SAMPLE_RATE/80;++j)
                 {
                         sum200+=(*d)*(*d);
@@ -101,7 +102,7 @@ void displayWAVdata(short int d[])
 		rms200=20*log10(rms200);
                 if(rms200<min200) min200=rms200;
                 if(rms200>max200) max200=rms200;
-#ifdef DEBUG //conditional compiling
+#ifdef DEBUG // conditional compiling
                 printf("%d %10.2f", i, rms200);
 #else
                 setFGcolor(GREEN);
@@ -113,7 +114,7 @@ void displayWAVdata(short int d[])
 #ifdef DEBUG
                 printf("\n min = %.2f, max = %.2f\n", min200, max200);
 #endif
-#ifdef COMM //ONLY IN THE CASE COMMis defined, sent data to server
+#ifdef COMM //ONLY IN THE CASE COMM is defined, sent data to server
 send_data_curl(Leqf);
 #endif
         }
