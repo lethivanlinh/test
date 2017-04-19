@@ -1,0 +1,60 @@
+          Cell 01 - Address: 44:31:92:BB:80:B0
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=43/70  Signal level=-67 dBm  
+                    ESSID:"VamkGuest"
+          Cell 02 - Address: 44:31:92:BB:80:B3
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=40/70  Signal level=-70 dBm  
+                    ESSID:"eduroam"
+          Cell 03 - Address: 78:48:59:45:29:B0
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=28/70  Signal level=-82 dBm  
+                    ESSID:"VamkGuest"
+          Cell 04 - Address: 78:48:59:45:29:B3
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=25/70  Signal level=-85 dBm  
+                    ESSID:"eduroam"
+          Cell 05 - Address: 44:31:92:BB:7F:70
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=33/70  Signal level=-77 dBm  
+                    ESSID:"VamkGuest"
+          Cell 06 - Address: 44:31:92:BB:7F:73
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=32/70  Signal level=-78 dBm  
+                    ESSID:"eduroam"
+          Cell 07 - Address: 84:D4:7E:C0:6A:81
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=18/70  Signal level=-92 dBm  
+                    ESSID:"VamkGuest"
+          Cell 08 - Address: 44:31:92:BD:28:73
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=15/70  Signal level=-95 dBm  
+                    ESSID:"eduroam"
+          Cell 09 - Address: DC:D9:16:48:64:A3
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=25/70  Signal level=-85 dBm  
+                    ESSID:"HONOR_PLK_4410"
+          Cell 10 - Address: 44:31:92:BB:7F:71
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=30/70  Signal level=-80 dBm  
+                    ESSID:""
+          Cell 11 - Address: 44:31:92:BD:28:70
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=20/70  Signal level=-90 dBm  
+                    ESSID:"VamkGuest"
+          Cell 12 - Address: 84:D4:7E:C0:6A:82
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=20/70  Signal level=-90 dBm  
+                    ESSID:"eduroam"
+          Cell 13 - Address: 44:31:92:BB:80:B1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=40/70  Signal level=-70 dBm  
+                    ESSID:""
+          Cell 14 - Address: 78:48:59:45:21:10
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=18/70  Signal level=-92 dBm  
+                    ESSID:"VamkGuest"
+          Cell 15 - Address: 84:D4:7E:C0:6A:80
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=19/70  Signal level=-91 dBm  
+                    ESSID:""
